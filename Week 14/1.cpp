@@ -1,3 +1,8 @@
+/*
+    Q-01 Given a number n, write an algorithm and a program to find nth ugly number. Ugly numbers are
+those numbers whose only prime factors are 2, 3 or 5. The sequence 1, 2, 3, 4, 5, 6, 8, 9, 10, 12,
+15, 16, 18, 20, 24,..... is sequence of ugly numbers.
+*/
 #include<iostream>
 #include<vector>
 using namespace std;

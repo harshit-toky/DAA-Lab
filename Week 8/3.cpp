@@ -1,3 +1,10 @@
+/*
+    Q-03 Assume that same road construction project is given to another person. The amount he will earn
+from this project is directly proportional to the budget of the project. This person is greedy, so he
+decided to maximize the budget by constructing those roads who have highest construction cost.
+Design an algorithm and implement it using a program to find the maximum budget required for
+the project.
+*/
 #include<bits/stdc++.h>
 using namespace std;
 

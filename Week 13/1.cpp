@@ -1,3 +1,8 @@
+/*
+    Q-01 Given an array of characters, you have to find distinct characters from this array. Design an
+algorithm and implement it using a program to solve this problem using hashing. (Time
+Complexity = O(n))
+*/
 #include<iostream>
 #include<map>
 

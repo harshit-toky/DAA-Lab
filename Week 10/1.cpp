@@ -1,3 +1,11 @@
+/*
+    Q-01 Given a list of activities with their starting time and finishing time. Your goal is to select
+maximum number of activities that can be performed by a single person such that selected
+activities must be non-conflicting. Any activity is said to be non-conflicting if starting time of an
+activity is greater than or equal to the finishing time of the other activity. Assume that a person
+can only work on a single activity at a time.
+
+*/
 #include<bits/stdc++.h>
 using namespace std;
 

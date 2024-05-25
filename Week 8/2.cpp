@@ -1,3 +1,6 @@
+/*
+    Q-02 Implement the previous problem using Kruskal's algorithm
+*/
 #include<bits/stdc++.h>
 using namespace std;
 

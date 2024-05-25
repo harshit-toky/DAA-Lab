@@ -1,3 +1,8 @@
+/*
+    Q-02  Given an array of integers of size n, design an algorithm and write a program to check whether
+this array contains duplicate within a small window of size k < n.
+
+*/
 #include<iostream>
 #include<vector>
 #include<unordered_map>

@@ -1,3 +1,7 @@
+/*
+    Q-02 Given a directed graph, write an algorithm and a program to find mother vertex in a graph. A
+mother vertex is a vertex v such that there exists a path from v to all other vertices of the graph.
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>

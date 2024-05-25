@@ -1,3 +1,9 @@
+/*
+    Q-01 Given an unsorted array of integers, design an algorithm and a program to sort the array using
+insertion sort. Your program should be able to find number of comparisons and shifts ( shifts -
+total number of times the array elements are shifted from their place) required for sorting the
+array.
+*/
 #include<stdio.h>
 
 void insertionSort(int a[],int n){
@@ -20,24 +26,9 @@ void insertionSort(int a[],int n){
     for(i=0;i<n;i++){
         printf("%d ",a[i]);
     }
-    printf("\nComparisons =%d\nShifts =%d",comparisons,shifts);
+    printf("\nShifts =%d\nComparisons =%d",comparisons,shifts);
 
 }
-
-void insertionSortRecusrsive(int a[],int n)
-{
-    if(n <= 1)
-        return;
-    insertionSortRecusrsive(a,n-1);
-    int j = n-2;
-    int t = a[n-1];
-    while(j>=0 && a[j]>t){
-        a[j+1] = a[j];
-        j--;
-    }
-    a[j+1]=t;
-}
-
 void main()
 {
     int n,a[50],key,i;
@@ -48,8 +39,5 @@ void main()
         scanf("%d",&a[i]);
     }
 
-    insertionSortRecusrsive(a,n);
-    for(i=0;i<n;i++){
-        printf("%d ",a[i]);
-    }
+    insertionSort(a,n);
 }

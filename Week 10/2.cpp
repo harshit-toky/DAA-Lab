@@ -1,3 +1,9 @@
+/*
+    Q-02 Given a long list of tasks. Each task takes specific time to accomplish it and each task has a
+deadline associated with it. You have to design an algorithm and implement it using a program to
+find maximum number of tasks that can be completed without crossing their deadlines and also
+find list of selected tasks.
+*/
 #include<bits/stdc++.h>
 using namespace std;
 

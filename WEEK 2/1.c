@@ -1,3 +1,9 @@
+/*
+    Q-01 Given a sorted array of positive integers containing few duplicate elements, design an algorithm
+and implement it using a program to find whether the given key element is present in the array or
+not. If present, then also find the number of copies of given key. (Time Complexity = O(log n))
+
+*/
 #include<stdio.h>
 void main(){
     int i,a[50],n,key,count=0;
@@ -25,7 +31,6 @@ void main(){
                     break;
                 else
                     count++;
-
             }
         }
         if(a[mid]<key){

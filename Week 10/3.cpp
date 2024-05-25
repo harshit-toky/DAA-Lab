@@ -1,3 +1,8 @@
+/*
+    Q-03 . Given an unsorted array of elements, design an algorithm and implement it using a program to
+find whether majority element exists or not. Also find median of the array. A majority element is
+an element that appears more than n/2 times, where n is the size of array.
+*/
 #include<iostream>
 #include<vector>
 using namespace std;

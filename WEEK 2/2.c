@@ -1,3 +1,8 @@
+/*
+    Q-02 Given a sorted array of positive integers, design an algorithm and implement it using a program
+to find three indices i, j, k such that arr[i] + arr[j] = arr[k].
+
+*/
 #include<stdio.h>
 void main(){
     int n,a[50],i,j,k;
@@ -22,5 +27,5 @@ void main(){
     if(a[j] + a[k] != a[i])
         printf("No Sequence Found\n");
     else
-        printf("%d %d %d\n",j,k,i);
+        printf("%d %d %d\n",j+1,k+1,i+1);
 }

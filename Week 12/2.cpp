@@ -1,3 +1,10 @@
+/*
+    Q-02 Given a knapsack of maximum capacity w. N items are provided, each having its own value and
+weight. Design an algorithm and implement it using a program to find the list of the selected
+items such that the final selected content has weight <= w and has maximum value. Here, you
+cannot break an item i.e. either pick the complete item or don't pick it. (0-1 property).
+
+*/
 #include <iostream>
 #include <vector>
 #include<algorithm>
